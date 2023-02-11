@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>homework3</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
@@ -18,36 +18,33 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- Шапка сторінки -->
-    <header class="header-one">
+    <!-- чердак -->
+    <header class="header-top">
       <div class="conteiner header-one-conteiner">
-        <div class="header-cont">
-          <nav class="top-navigation">
-            <!-- Навігація та інші сторінки -->
-            <a class="logo logo-light-theme link" href="/index.html"
-              ><span class="logo-span">Web</span>Studio</a
-            >
-            <ul class="menu-list list">
-              <li class="menu-item">
-                <a class="menu-link link" href="./index.html">Studio</a>
-              </li>
-              <li class="menu-item">
-                <a class="menu-link link" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="menu-item">
-                <a class="menu-link link" href="/">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+        <nav class="heder-navigation">
+          <a class="logo logo-light-theme link" href="./index.html"
+            ><span class="logotipe">web</span>Studio</a
+          >
+          <ul class="menu-list list">
+            <li class="menu-item">
+              <a class="menu-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
         <address class="menu-address">
-          <ul class="menu-address-list list">
-            <li class="menu-address-item">
+          <ul class="menu-list-address list">
+            <li class="menu-item-address">
               <a class="address-mail link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="menu-address-item">
+            <li class="menu-item-address">
               <a class="address-tel link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
@@ -56,37 +53,40 @@
         </address>
       </div>
     </header>
-    <!-- унікальний контент -->
     <main>
-      <!-- Buttun section  -->
-      <section class="section-btn-pro section">
+      <!-- Section 1 -->
+      <section class="section-btn-pro">
         <div class="conteiner">
-          <h1 class="strategy-title">section-portfolio-btn</h1>
+          <h1 class="strategy-title-port">section-portfolio</h1>
           <ul class="menu-list-btn list">
             <li class="menu-item-btn">
               <button class="text-btn" type="button">All</button>
             </li>
+
             <li class="menu-item-btn">
               <button class="text-btn" type="button">Web Site</button>
             </li>
+
             <li class="menu-item-btn">
               <button class="text-btn" type="button">App</button>
             </li>
+
             <li class="menu-item-btn">
               <button class="text-btn" type="button">Design</button>
             </li>
+
             <li class="menu-item-btn">
               <button class="text-btn" type="button">Marketing</button>
             </li>
           </ul>
-
+          <!-- Section 2 -->
           <ul class="menu-list-team list">
-            <li class="menu-item-team">
+            <li class="menu-item-team-port">
               <a href="/" class="card-prof link">
                 <img
                   class="photo"
-                  src="./Images/images/hw-02/img.jpg"
-                  alt="App"
+                  src="./images/hw-2/app-min.jpg"
+                  alt="Banking App Interface Concept"
                   width="360"
                   height="300"
                 />
@@ -96,12 +96,13 @@
                 </div>
               </a>
             </li>
-            <li class="menu-item-team">
+
+            <li class="menu-item-team-port">
               <a href="/" class="card-prof link">
                 <img
                   class="photo"
-                  src="./Images/images/hw-02/phone-1.jpg"
-                  alt="Phone"
+                  src="./images/hw-2/mkr-min.jpg"
+                  alt="Cashless Payment"
                   width="360"
                   height="300"
                 />
@@ -111,12 +112,13 @@
                 </div>
               </a>
             </li>
-            <li class="menu-item-team">
+
+            <li class="menu-item-team-port">
               <a href="/" class="card-prof link">
                 <img
                   class="photo"
-                  src="./Images/images/hw-02/nout-1.jpg"
-                  alt="nout"
+                  src="./images/hw-2/media-min.jpg"
+                  alt="Meditaion App"
                   width="360"
                   height="300"
                 />
@@ -127,27 +129,28 @@
               </a>
             </li>
 
-            <li class="menu-item-team">
+            <li class="menu-item-team-port">
               <a href="/" class="card-prof link">
                 <img
                   class="photo"
-                  src="./Images/images/hw-02/car.jpg"
-                  alt="car"
+                  src="./images/hw-2/taxi-min.jpg"
+                  alt="Taxi Service"
                   width="360"
                   height="300"
                 />
                 <div class="port-card">
                   <h2 class="photo-name-port">Taxi Service</h2>
-                  <p class="profile-port">MarketingA</p>
+                  <p class="profile-port">Marketing</p>
                 </div>
               </a>
             </li>
-            <li class="menu-item-team">
+
+            <li class="menu-item-team-port">
               <a href="/" class="card-prof link">
                 <img
                   class="photo"
-                  src="./Images/images/hw-02/moon.jpg"
-                  alt="moon"
+                  src="./images/hw-2/screen-min.jpg"
+                  alt="Screen Illustrations"
                   width="360"
                   height="300"
                 />
@@ -157,12 +160,13 @@
                 </div>
               </a>
             </li>
-            <li class="menu-item-team">
+
+            <li class="menu-item-team-port">
               <a href="/" class="card-prof link">
                 <img
                   class="photo"
-                  src="./Images/images/hw-02/girl.jpg"
-                  alt="girl"
+                  src="./images/hw-2/marketing-min.jpg"
+                  alt="Online Courses"
                   width="360"
                   height="300"
                 />
@@ -173,12 +177,12 @@
               </a>
             </li>
 
-            <li class="menu-item-team">
+            <li class="menu-item-team-port">
               <a href="/" class="card-prof link">
                 <img
                   class="photo"
-                  src="./Images/images/hw-02/cards.jpg"
-                  alt="Cards"
+                  src="./images/hw-2/concept-min.jpg"
+                  alt="Instagram Stories Concept"
                   width="360"
                   height="300"
                 />
@@ -188,12 +192,13 @@
                 </div>
               </a>
             </li>
-            <li class="menu-item-team">
-              <a href="/" class="card-prof link">
+
+            <li class="menu-item-team-port">
+              <a class="card-prof link">
                 <img
                   class="photo"
-                  src="/Images/images/hw-02/food.jpg"
-                  alt="food"
+                  src="./images/hw-2/organic-min.jpg"
+                  alt="Organic Food"
                   width="360"
                   height="300"
                 />
@@ -203,12 +208,13 @@
                 </div>
               </a>
             </li>
-            <li class="menu-item-team">
+
+            <li class="menu-item-team-port">
               <a href="/" class="card-prof link">
                 <img
                   class="photo"
-                  src="./Images/images/hw-02/coffee.jpg"
-                  alt="coffee"
+                  src="./images/hw-2/fresh-min.jpg"
+                  alt="Fresh Coffee"
                   width="360"
                   height="300"
                 />
@@ -222,16 +228,19 @@
         </div>
       </section>
     </main>
-    <!-- підвал сторінки  -->
-    <footer class="footer-top section">
-      <div class="conteiner footer-logo">
-        <a class="logo logo-dark-theme link" href="/index.html"
-          ><span class="logo-span">Web</span>Studio</a
-        >
-        <p class="footer-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+
+    <!-- подвал -->
+    <footer class="footer-top">
+      <div class="conteiner">
+        <div class="footer-logo">
+          <a class="logo-f logo-dark-theme link" href="./index.html"
+            ><span class="logotipe">web</span>Studio</a
+          >
+          <p class="footer-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
       </div>
     </footer>
   </body>
