@@ -680,7 +680,7 @@ body {
 
 .menu-list-team {
     display: flex;
-    column-gap: 24px;
+    column-gap: 23px;
     row-gap: 48px;
 }
 
@@ -688,6 +688,12 @@ body {
     flex-basis: calc((100% - 48px) / 3);
 
     background: var(--fon-title);
+}
+
+.menu-item-team-port:hover,
+.menu-item-team-port:focus {
+    border: 0.5px solid var(--fon-color);
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .card-prof {
