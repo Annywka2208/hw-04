@@ -210,8 +210,8 @@ body {
     max-height: 600px;
     border-bottom: 1px solid var(--color-header);
     text-align: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../Images/images/hw-04/backgr.jpg);
     background-size: cover;
 
@@ -542,9 +542,14 @@ body {
     padding-bottom: 100px;
 }
 
+.footer-menu {
+    display: flex;
+}
+
 .footer-logo {
     display: block;
     width: 264px;
+    margin-right: 120px;
 
 }
 
@@ -569,6 +574,60 @@ body {
     margin-top: 16px;
 
 }
+
+.social-footer {
+     width: 208px;
+     padding-top: 5px;
+
+}
+
+.footer-title {
+
+}
+
+.footer-title-text {
+    display: block;
+    margin-bottom: 23px;
+    fill: var(--fon-title);
+    width: 94px;
+    height: 12px;
+}
+
+.footer-list-link:hover,
+.footer-list-link:focus {
+    background-color: #31D0AA;
+}
+
+
+
+.footer-list {
+    display: flex;
+    margin-bottom: 0;
+
+}
+
+
+.footer-list-item {
+   
+}
+
+.footer-list .footer-list-item + .footer-list-item {
+    margin-left: 16px;
+}
+
+.footer-list-link {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: rgba(255, 255, 255, 0.1);
+    
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+}
+
+.footer-list-icon {}
 
 /* portfolio */
 
